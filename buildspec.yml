@@ -15,5 +15,5 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'dist/ng-ci-cd-aws-demo/*'
+  base-directory: 'dist*'
   discard-paths: no
