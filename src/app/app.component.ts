@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  counterValue = 0;
   title = 'ng-ci-cd-aws-demo';
+  increment() {
+    this.counterValue += 10;
+  }
+  decrement() {
+    this.counterValue -= 10;
+  }
 }
