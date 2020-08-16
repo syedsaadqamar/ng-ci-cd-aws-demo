@@ -18,8 +18,8 @@ phases:
       - npm install -g @angular/cli
   build:
     commands:
-      - echo Testing...
-      - ng test
+      # - echo Testing...
+      # - ng test
       - echo Building...
       - ng build --prod
 artifacts:
