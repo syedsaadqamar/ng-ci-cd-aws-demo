@@ -1,3 +1,4 @@
+#0.1 runs each build command in a separate instance --- 0.2 runs all build command in a same instance (recommanded)
 version: 0.2
 
 phases:
@@ -6,8 +7,8 @@ phases:
       nodejs: 10
     commands:
       - echo Installing source NPM dependencies...
-      - npm install
       - npm install -g @angular/cli
+      - npm install
   build:
     commands:
       - echo Build started 
