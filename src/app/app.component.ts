@@ -9,9 +9,9 @@ export class AppComponent {
   counterValue = 0;
   title = 'ng-ci-cd-aws-demo';
   increment() {
-    this.counterValue += 1;
+    this.counterValue += 10;
   }
   decrement() {
-    this.counterValue -= 1;
+    this.counterValue -= 10;
   }
 }
